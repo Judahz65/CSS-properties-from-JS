@@ -1,0 +1,49 @@
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 70%;
+}
+
+img{
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: brightness(var(--blur));
+}
+
+.highL{
+    color: var(--base);
+}
+
+body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+  }
+
+  .controls {
+    margin-bottom: 50px;
+  }
+
+  a{
+    color: var(--base);
+    text-decoration: none;
+  }
+
+  input {
+    width: 100px;
+  }
+  footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 4vh;
+    background-color: var(--base);
+  }
+  .pie{
+    font-size: 40%;
+    padding: 0.5vh;
+    text-shadow: 0.5px;
+  }
